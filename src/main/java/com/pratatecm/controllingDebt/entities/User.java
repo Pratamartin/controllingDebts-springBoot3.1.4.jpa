@@ -1,7 +1,6 @@
 package com.pratatecm.controllingDebt.entities;
 
 import jakarta.persistence.*;
-
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -10,6 +9,8 @@ import java.util.Objects;
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
+
+    //think about user for example w need to do
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
